@@ -1,0 +1,647 @@
+{
+  "settings": {
+    "name": "iDivulga v1",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "directm",
+      "title": "DirectM",
+      "styling": {
+        "primaryColor": "#00ffc3",
+        "secondaryColor": "#A25DAE",
+        "successColor": "#1E7C3A",
+        "infoColor": "#74a3c7",
+        "warningColor": "#FFD785",
+        "dangerColor": "#FF9685",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      }
+    },
+    "versionFirst": "3.9.2",
+    "uniqCompNum": 19,
+    "versionPublish": "3.10.2",
+    "favicon": "@PROJECT_PATH@/assets/images/idivulga-logotipo.png",
+    "noImageResize": "true",
+    "google-analytics": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Sites responsivos otimizados de baixo custo e entrega rápida - ID",
+        "meta_descr": "Site profissional adaptados para celular e tablet. Apareça nas primeiras posições no Google sem link patrocinado em Bauru.",
+        "header_custom": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-NR7RLX');</script>\n<!-- End Google Tag Manager -->",
+        "footer_custom": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NR7RLX\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#fffffd"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fffffd"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fffffd",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".link": {
+              "font-size": "0.8125rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.880rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#fffffd"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#2d2d2d"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#252525!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2d2d2d"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fffffd",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#00ffc3!important"
+            },
+            ".navbar-caption": {
+              "font-size": "20px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-4",
+          "_params": {
+            "bgColor": "#2d2d2d",
+            "fontSize": 0.8125,
+            "imageSize": 4,
+            "fontName": {
+              "name": "Montserrat",
+              "css": "'Montserrat', sans-serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "fontColor": "#fffffd",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/idivulga-logotipo-128x128-36.png",
+              "height": 128,
+              "alt": "iDivulga Webdesign",
+              "link": "index.html",
+              "title": "iDivulga Webdesign",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">DIVULGA</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#pricing-table2-7\">PLANOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#pricing-table2-7\">VANTAGENS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#image1-9\">PORTFOLIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-d\">CONTATO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "subtitle1": "Awesome",
+          "subtitle2": "Awesome",
+          "subtitle3": "Awesome",
+          "subtitle4": "Awesome",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "#fff",
+              "border-color": "#fff"
+            },
+            ".mbr-table-cell": {
+              "vertical-align": "bottom"
+            },
+            ".card-text": {
+              "font-size": "13px"
+            },
+            ".heading-title": {
+              "font-size": "48px"
+            },
+            ".heading-title B": {
+              "font-size": "46px"
+            },
+            ".heading-text": {
+              "color": "#fffffd",
+              "font-size": "18px"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "iconsBgColor": "#fff",
+            "parallax": false,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/01-1.jpg",
+            "bgColor": "#5b5f6b",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#00ffbe",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showFeatures": true,
+            "columns": 3,
+            "showFeaturesImages": true,
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false
+          },
+          "title": "<b>SEU SITE&nbsp;NAS<br>BUSCAS DO GOOGLE</b>",
+          "text": "Faça seu projeto com facilidade e garanta a qualidade dos recursos<br>digitais aumentando seu investimento financeiro!<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"index.html#pricing-table2-7\" data-toolbar=\"-mbrBtnMove\">CONHEÇA NOSSOS PREÇO</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "design-software",
+              "family": "icon54",
+              "active": true,
+              "link": "#",
+              "size": 40,
+              "newWindow": false
+            }
+          },
+          "title1": "Identidade visual",
+          "text1": "Crie seu logotipo e garanta mais credibilidade no seu negócio. Obtenha uma papelaria corporativa e divulgue melhor a sua empresa",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "mobile2",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "#",
+              "size": 40,
+              "newWindow": false
+            }
+          },
+          "title2": "Mobile First",
+          "text2": "O conteúdo do site é pensado primeiramente no interação do usuário com o mobile e consecutivamente exposto no desktop",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "search-app-1",
+              "family": "icon54-v2",
+              "active": true,
+              "link": "#",
+              "size": 40,
+              "newWindow": false
+            }
+          },
+          "title3": "SEO e Analytics",
+          "text3": "Garantimos o ranqueamento do seu site nas buscas do Google com um SEO completo e bem construído, além de métricas mensais do Google Analytics",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "facebook",
+              "family": "socicon",
+              "active": true,
+              "link": "#",
+              "size": 40,
+              "newWindow": false
+            }
+          },
+          "title4": "Social media",
+          "text4": "Melhore ainda mais o rendimento da sua empresa nas redes sociais, dê vida a ela com o gerenciamentos dos conteúdos e serviços de postagem",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        },
+        {
+          "text19": "Lorem ipsa, nobis.",
+          "text29": "Lorem ipsa, nobis.",
+          "text39": "Lorem ipsa, nobis.",
+          "text47": "Loipsa. consectetur.",
+          "text49": "Lorem ipsa, nobis.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-7",
+          "_params": {
+            "defaultColor": "#6ca4cf",
+            "favoriteColor": "#62cab1",
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false,
+            "firstType": "default",
+            "rows": 4,
+            "showButtons": true,
+            "secondType": "favorite",
+            "thirdType": "default",
+            "fourthType": "favorite"
+          },
+          "title": "PREÇOS",
+          "subtitle": "<i>Escolha a opção que mais se encaixa nas suas necessidade e nós garantidos a eficiência do seu produto<br>nas buscas do Google e&nbsp;a experiência do usuário com o seu produto digital</i><br><br>&nbsp;",
+          "title1": "LOGOTIPO",
+          "text111": "<span class=\"price\">650</span>",
+          "currency": "R$",
+          "text112": "<br>preço único",
+          "text12": "+ Cartão de visita<br>",
+          "text13": "<span style=\"line-height: 1em;\">+ Papel timbrado</span><br>",
+          "text14": "+ Assinatura de e-mail<br>",
+          "text15": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text16": "Nesciunt! ipsum dolor.",
+          "text17": "Loipsa. consectetur.",
+          "text18": "Lorensectetur, omnis.",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html#content5-d\" class=\"btn btn-lg btn-primary-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">COMPRAR</a>",
+          "title2": "ONEPAGE",
+          "text211": "<span class=\"price\">1.500</span>",
+          "text212": "<br>preço único",
+          "text22": "1 página",
+          "text23": "SEO Completo",
+          "text24": "+ R$25 hospedagem/mês",
+          "text25": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text26": "Nesciunt! ipsum dolor.",
+          "text27": "Loipsa. consectetur.",
+          "text28": "Lorensectetur, omnis.",
+          "button2": "<a data-app-btn=\"true\" href=\"index.html#content5-d\" class=\"btn btn-lg btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">COMPRAR</a>",
+          "title3": "WEBSITE",
+          "text311": "<span class=\"price\">1.800</span>",
+          "text312": "<br>preço único",
+          "text32": "de 2 a 4 páginas",
+          "text33": "SEO Completo",
+          "text34": "+ R$25 hospedagem/mês",
+          "text35": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text36": "Nesciunt! ipsum dolor.",
+          "text37": "Loipsa. consectetur.",
+          "text38": "Lorensectetur, omnis.",
+          "button3": "<a data-app-btn=\"true\" href=\"index.html#content5-d\" class=\"btn btn-lg btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">COMPRAR</a>",
+          "title4": "SOCIAL MEDIA",
+          "text411": "<span class=\"price\">550</span>",
+          "text412": "<br>por mês",
+          "text42": "4 postagens por semana<br>",
+          "text43": "Artes inclusas",
+          "text44": "Facebook + Instagram",
+          "text45": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text46": "Nesciunt! ipsum dolor.",
+          "text48": "Lorensectetur, omnis.",
+          "button4": "<a data-app-btn=\"true\" href=\"index.html#content5-d\" class=\"btn btn-lg btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">COMPRAR</a>",
+          "_customHTML": "<section class=\"mbr-section pricingtable2\" style=\"background-color: rgb(255, 255, 255); padding-top: 80px; padding-bottom: 0px;\">\n\n    \n\n      <div class=\"container heading\">\n          <div class=\"row\">\n              <div class=\"col-xs-12 text-xs-center\">\n                  <h3 class=\"heading-title mbr-section-title display-3 mbr-editable-content\" code-editable-id=\"112\">PREÇOS</h3>\n                  \n              </div>\n          </div>\n      </div>\n\n    <div class=\"container\">\n      <div class=\"row plan\">\n        <div class=\"plan-wrap col-xs-12 default col-lg-3\" style=\"display: block;\">\n          <h3 class=\"plan-title mbr-section-title sub-2 firstType mbr-editable-content\" code-editable-id=\"113\">LOGOTIPO</h3>\n          <p class=\"plan-price\">\n            <span class=\"plan-text mbr-section-text text-1 normal price mbr-editable-content\" code-editable-id=\"114\"><span class=\"price\">650</span></span>\n            <span class=\"plan-text mbr-section-text text-1 normal currency mbr-editable-content\" code-editable-id=\"115\">R$</span>\n            <span class=\"plan-text mbr-section-text text-1 normal mbr-editable-content\" code-editable-id=\"116\"><br>preço único</span>\n          </p>\n          <p class=\"plan-text mbr-section-text text-1 mbr-editable-content\" code-editable-id=\"117\">+ Cartão de visita<br></p>\n          <p class=\"plan-text mbr-section-text text-1 mbr-editable-content\" code-editable-id=\"118\"><span style=\"line-height: 1em;\">+ Papel timbrado</span><br></p>\n          <p class=\"plan-text mbr-section-text text-1 mbr-editable-content\" code-editable-id=\"119\">+ Assinatura de e-mail<br></p>\n          \n          \n          \n          \n          <div class=\"plan-btn text-xs-center\"><a href=\"https://formtool.typeform.com/to/l12oQo\" data-mode=\"2\" target=\"_blank\" class=\"btn btn-lg btn-primary-outline mbr-editable-button typeform-share link\" code-editable-id=\"120\">COMPRAR</a></div>\n        </div>\n\n        <div class=\"plan-wrap col-xs-12 favorite col-lg-3\" style=\"display: block;\">\n          <h3 class=\"plan-title mbr-section-title sub-2 secondType mbr-editable-content\" code-editable-id=\"121\">ONEPAGE</h3>\n          <p class=\"plan-price\">\n            <span class=\"plan-text mbr-section-text text-1 normal price mbr-editable-content\" code-editable-id=\"122\"><span class=\"price\">1.500</span></span>\n            <span class=\"plan-text mbr-section-text text-1 normal currency mbr-editable-content\" code-editable-id=\"123\">R$</span>\n            <span class=\"plan-text mbr-section-text text-1 normal mbr-editable-content\" code-editable-id=\"124\"><br>preço único</span>\n          </p>\n          <p class=\"plan-text mbr-section-text text-1 mbr-editable-content\" code-editable-id=\"125\">1 página</p>\n          <p class=\"plan-text mbr-section-text text-1 mbr-editable-content\" code-editable-id=\"126\">SEO Completo</p>\n          <p class=\"plan-text mbr-section-text text-1 mbr-editable-content\" code-editable-id=\"127\">+ R$25 hospedagem/mês</p>\n          \n          \n          \n          \n          <div class=\"plan-btn text-xs-center\"><a href=\"https://formtool.typeform.com/to/l12oQo\" data-mode=\"2\" target=\"_blank\" class=\"btn btn-lg btn-primary-outline mbr-editable-button typeform-share link\" code-editable-id=\"128\">COMPRAR</a></div>\n        </div>\n\n        <div class=\"plan-wrap col-xs-12 default col-lg-3\" style=\"display: block;\">\n          <h3 class=\"plan-title mbr-section-title sub-2 thirdType mbr-editable-content\" code-editable-id=\"129\">WEBSITE</h3>\n          <p class=\"plan-price\">\n            <span class=\"plan-text mbr-section-text text-1 normal price mbr-editable-content\" code-editable-id=\"130\"><span class=\"price\">1.800</span></span>\n            <span class=\"plan-text mbr-section-text text-1 normal currency mbr-editable-content\" code-editable-id=\"131\">R$</span>\n            <span class=\"plan-text mbr-section-text text-1 normal mbr-editable-content\" code-editable-id=\"132\"><br>preço único</span>\n          </p>\n          <p class=\"plan-text mbr-section-text text-1 mbr-editable-content\" code-editable-id=\"133\">de 2 a 4 páginas</p>\n          <p class=\"plan-text mbr-section-text text-1 mbr-editable-content\" code-editable-id=\"134\">SEO Completo</p>\n          <p class=\"plan-text mbr-section-text text-1 mbr-editable-content\" code-editable-id=\"135\">+ R$25 hospedagem/mês</p>\n          \n          \n          \n          \n          <div class=\"plan-btn text-xs-center\"><a href=\"https://formtool.typeform.com/to/l12oQo\" data-mode=\"2\" target=\"_blank\" class=\"btn btn-lg btn-primary-outline mbr-editable-button typeform-share link\" code-editable-id=\"136\">COMPRAR</a></div>\n        </div>\n\n        <div class=\"plan-wrap col-xs-12 favorite col-lg-3\" style=\"display: block;\">\n          <h3 class=\"plan-title mbr-section-title sub-2 fourthType mbr-editable-content\" code-editable-id=\"137\">SOCIAL MEDIA</h3>\n          <p class=\"plan-price\">\n            <span class=\"plan-text mbr-section-text text-1 normal price mbr-editable-content\" code-editable-id=\"138\"><span class=\"price\">550</span></span>\n            <span class=\"plan-text mbr-section-text text-1 normal currency mbr-editable-content\" code-editable-id=\"139\">R$</span>\n            <span class=\"plan-text mbr-section-text text-1 normal mbr-editable-content\" code-editable-id=\"140\"><br>por mês</span>\n          </p>\n          <p class=\"plan-text mbr-section-text text-1 mbr-editable-content\" code-editable-id=\"141\">4 postagens por semana<br></p>\n          <p class=\"plan-text mbr-section-text text-1 mbr-editable-content\" code-editable-id=\"142\">Artes inclusas</p>\n          <p class=\"plan-text mbr-section-text text-1 mbr-editable-content\" code-editable-id=\"143\">Facebook + Instagram</p>\n          \n          \n          \n          \n          <div class=\"plan-btn text-xs-center\"><a href=\"https://formtool.typeform.com/to/l12oQo\" data-mode=\"2\" target=\"_blank\" class=\"btn btn-lg btn-primary-outline mbr-editable-button typeform-share link\" code-editable-id=\"144\">COMPRAR</a></div>\n        </div>\n      </div>\n    </div>   \n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);\n.plan-wrap.default .plan-title {\n\tbackground: #6ca4cf;\n}\n.plan-wrap.favorite .plan-title {\n\tbackground: #62cab1;\n}\n.heading-text I {\n\tfont-size: 15px;\n}\n.plan-text {\n\tfont-family: 'Raleway', sans-serif;\n}\n",
+          "_customTemplate": true
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "content1-g",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "6",
+            "bgColor": "#ffffff"
+          },
+          "text": "*O domínio registrado é pago anualmente R$40 aproximadamente, e a mensalidade da hospedagem é cobrada a cada semestre."
+        },
+        {
+          "subtitle1": "Awesome",
+          "subtitle2": "Awesome",
+          "subtitle3": "Awesome",
+          "subtitle4": "Awesome",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features15",
+          "_styles": {
+            ".mbr-iconfont": {
+              "background": "@primaryColor",
+              "border-color": "@primaryColor"
+            },
+            ".heading-title": {
+              "font-size": "48px",
+              "color": "#fffffd"
+            },
+            ".card-text B": {
+              "font-size": "14px",
+              "color": "#fffffd"
+            },
+            ".card-text": {
+              "font-size": "14px",
+              "color": "#fffffd"
+            },
+            ".card-title": {
+              "color": "#fffffd"
+            }
+          },
+          "_anchor": "features15-h",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "contentAlign": "center",
+            "iconsBgColor": "@primaryColor",
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/banner.jpg",
+            "bgColor": "#d9d9d9",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.95,
+            "overlayColor": "#fffffd",
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showFeatures": true,
+            "columns": 3,
+            "showFeaturesImages": true,
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false
+          },
+          "title": "VANTAGENS",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "touch",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title1": "MONITORAMENTO",
+          "text1": "<b>Ferramentas Google</b>:<br>Gerenciador de scripts – Google Tag Manager;&nbsp;Estatísticas: Google Analytics;<br>Resultados: Google Search Console (sitemap + robots);&nbsp;<b>Integração ferramentas Google: Analytics </b>+ Search Console + YouTube;<br>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title2": "COMPORTAMENTO<br>E SEGURANÇA",
+          "text2": "Construído para abrir em desktops, tablet e celular; Mapa de calor e gravação de visitantes;&nbsp;Perfil de visitantes;&nbsp;<b>Site seguro com httpS</b>;<br>",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "setting",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "SEO COMPLETO",
+          "text3": "Otimização para pesquisa do Google;<br><b>Google Meu Negócio</b> – aparecer em destaque quando há local físico (endereço);<br>",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "hot-cup",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H1": {
+              "font-size": "48px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-a",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "0",
+            "bgColor": "#fffffd",
+            "showMeta": true
+          },
+          "title": "PORTFOLIO",
+          "meta": "Aprecie nossos 3 melhores layouts já produzidos!"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_styles": {
+            "DIV": {
+              "font-size": "11px",
+              "color": "#fffffd"
+            }
+          },
+          "_anchor": "image1-9",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/portfolio.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/HnPYeBJ9JCc"
+            }
+          },
+          "_params": {
+            "showText": false
+          },
+          "text": "Todos os direitos reservados - iDivulga 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "contentAlign": "center",
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#19b68f",
+            "containerColor2": "#446494",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": 0.95
+          },
+          "title": "CONTATO",
+          "text": "Quer bater um papo com um de nossos atendentes sobre os serviços oferecidos?<br>Abra um chamado e em breve entraremos em contato!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"#\" data-toolbar=\"-mbrBtnMove\">FORMULÁRIO</a>",
+          "_customHTML": "<section class=\"mbr-section content5\" style=\"background-image: linear-gradient(to right top, rgb(25, 182, 143), rgb(68, 100, 148)); background-color: rgb(25, 182, 143); padding-top: 80px; padding-bottom: 80px; background-position: initial initial; background-repeat: initial initial;\">\n\n{JS_CODE_0}    \n\n        <div class=\"container\">\n            <div class=\"row heading\">\n                <div class=\"col-md-10 col-md-offset-1 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-1 heading-title mbr-editable-content\" code-editable-id=\"43\">CONTATO</h1>\n                    <p class=\"mbr-section-subtitle text-1 heading-text mbr-editable-content\" code-editable-id=\"44\">Quer bater um papo com um de nossos atendentes sobre os serviços oferecidos?<br>Abra um chamado e em breve entraremos em contato!</p>\n                    <div class=\"mbr-section-btn\"><a class=\"btn btn-lg btn-primary mbr-editable-button typeform-share link\" href=\"https://formtool.typeform.com/to/l12oQo\" data-mode=\"2\" target=\"_blank\" code-editable-id=\"45\">FORMULÁRIO</a></div>\n                </div>\n            </div>\n        </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>"
+          ],
+          "_customCSS": ".mbr-section-title, .mbr-section-subtitle {\n\tmargin-bottom: 1rem;\n\tcolor: #ffffff;\n}\n.mbr-iconfont {\n\tcolor: undefined;\n\tborder-color: undefined;\n}\n.mbr-table-cell {\n\tvertical-align: middle;\n}\n.heading-title {\n\tfont-size: 46px;\n}\n",
+          "_customTemplate": true,
+          "_styles": {
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
+          "_anchor": "content5-d"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "share1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "30px"
+            }
+          },
+          "_anchor": "share1-f",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#fff",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "<b>COMPARTILHE</b>"
+        },
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            },
+            "P": {
+              "color": "#fffffd"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-i",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Sites responsivos otimizados de baixo custo e entrega rápida. Apareça nas primeiras posições no Google sem link patrocinado em Bauru."
+        }
+      ]
+    }
+  }
+}
